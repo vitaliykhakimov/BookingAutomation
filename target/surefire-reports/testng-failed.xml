@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
-  <test thread-count="5" verbose="0" name="SearchTests(failed)">
+  <test thread-count="5" verbose="0" name="FlightsTests(failed)">
     <classes>
-      <class name="tests.SearchHotelsTests">
+      <class name="tests.FlightsTest">
         <methods>
-          <include name="searchHotelsTest"/>
+          <include name="searchFlights"/>
+          <include name="shutDown"/>
         </methods>
-      </class> <!-- tests.SearchHotelsTests -->
+      </class> <!-- tests.FlightsTest -->
     </classes>
-  </test> <!-- SearchTests(failed) -->
+  </test> <!-- FlightsTests(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

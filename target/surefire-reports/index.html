@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite1">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite1">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.SearchHotelsTests" hash-for-method="searchHotelsTest">searchHotelsTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.FlightsTest" hash-for-method="searchFlights">searchFlights</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite1 -->
@@ -116,7 +116,32 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.SearchHotelsTests" hash-for-method="searchAndChooseRightHotel">searchAndChooseRightHotel</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.BookingHotelTests" hash-for-method="bookHotelWithWrongBankCard">bookHotelWithWrongBankCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.BookingHotelTests" hash-for-method="cancelingReservation">cancelingReservation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.BookingHotelTests" hash-for-method="reservationHotel">reservationHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.CarRentalsTest" hash-for-method="searchCar">searchCar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.BookingHotelTests" hash-for-method="searchHotel">searchHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="tests.TaxisTest" hash-for-method="searchTaxis">searchTaxis</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -134,35 +159,16 @@
           <div class="suite-Suite1-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">tests.SearchHotelsTests</span>
+              <span class="class-name">tests.FlightsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchHotelsTest">
-                  </a> <!-- searchHotelsTest -->
-                  <span class="method-name">searchHotelsTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;KHAKIMAU-V&apos;, ip: &apos;172.20.11.167&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\KHAKIM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51784}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: ecabc6769f0d07ca7b028b1217db3e1e
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at web.page.MainPage.enterMainPage(MainPage.java:15)
-	at tests.SearchHotelsTests.searchHotelsTest(SearchHotelsTests.java:27)
+                  <a name="searchFlights">
+                  </a> <!-- searchFlights -->
+                  <span class="method-name">searchFlights</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.FlightsTest.searchFlights(FlightsTest.java:34)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -172,14 +178,65 @@ Session ID: ecabc6769f0d07ca7b028b1217db3e1e
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.SearchHotelsTests</span>
+              <span class="class-name">tests.CarRentalsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchAndChooseRightHotel">
-                  </a> <!-- searchAndChooseRightHotel -->
-                  <span class="method-name">searchAndChooseRightHotel</span>
+                  <a name="searchCar">
+                  </a> <!-- searchCar -->
+                  <span class="method-name">searchCar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TaxisTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTaxis">
+                  </a> <!-- searchTaxis -->
+                  <span class="method-name">searchTaxis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.BookingHotelTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookHotelWithWrongBankCard">
+                  </a> <!-- bookHotelWithWrongBankCard -->
+                  <span class="method-name">bookHotelWithWrongBankCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelingReservation">
+                  </a> <!-- cancelingReservation -->
+                  <span class="method-name">cancelingReservation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reservationHotel">
+                  </a> <!-- reservationHotel -->
+                  <span class="method-name">reservationHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotel">
+                  </a> <!-- searchHotel -->
+                  <span class="method-name">searchHotel</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,13 +251,26 @@ Session ID: ecabc6769f0d07ca7b028b1217db3e1e
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;SearchTests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;BookingHotelsTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.SearchHotelsTests&quot;/&gt;
+      &lt;class name=&quot;tests.BookingHotelTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SearchTests --&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Regression1&quot;&gt;
-  &lt;/test&gt; &lt;!-- Regression1 --&gt;
+  &lt;/test&gt; &lt;!-- BookingHotelsTests --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;CarRentalsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CarRentalsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CarRentalsTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;FlightsTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FlightsTests --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TaxisTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TaxisTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TaxisTests --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -212,10 +282,16 @@ Session ID: ecabc6769f0d07ca7b028b1217db3e1e
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SearchTests (1 class)</span>
+                <span class="test-name">BookingHotelsTests (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Regression1 (0 classes)</span>
+                <span class="test-name">CarRentalsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FlightsTests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TaxisTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -241,20 +317,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchAndChooseRightHotel')
-data.setCell(0, 2, 'tests.SearchHotelsTests')
-data.setCell(0, 3, 16338);
+data.setCell(0, 1, 'reservationHotel')
+data.setCell(0, 2, 'tests.BookingHotelTests')
+data.setCell(0, 3, 47613);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchHotelsTest')
-data.setCell(1, 2, 'tests.SearchHotelsTests')
-data.setCell(1, 3, 472);
+data.setCell(1, 1, 'bookHotelWithWrongBankCard')
+data.setCell(1, 2, 'tests.BookingHotelTests')
+data.setCell(1, 3, 30993);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cancelingReservation')
+data.setCell(2, 2, 'tests.BookingHotelTests')
+data.setCell(2, 3, 23038);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchCar')
+data.setCell(3, 2, 'tests.CarRentalsTest')
+data.setCell(3, 3, 19687);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchFlights')
+data.setCell(4, 2, 'tests.FlightsTest')
+data.setCell(4, 3, 18699);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchHotel')
+data.setCell(5, 2, 'tests.BookingHotelTests')
+data.setCell(5, 3, 16729);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchTaxis')
+data.setCell(6, 2, 'tests.TaxisTest')
+data.setCell(6, 3, 13329);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -280,17 +376,74 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.SearchHotelsTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.BookingHotelTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">searchAndChooseRightHotel</span>
+                <span class="method-name">searchHotel</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">16729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">reservationHotel</span>
+                <span class="method-start">17332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">64945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">cancelingReservation</span>
+                <span class="method-start">65576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">88614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">bookHotelWithWrongBankCard</span>
+                <span class="method-start">89210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">120203 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CarRentalsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchCar</span>
+                <span class="method-start">120830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">140518 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FlightsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">searchHotelsTest</span>
-                <span class="method-start">16340 ms</span>
+                <span class="method-name">searchFlights</span>
+                <span class="method-start">141122 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">159824 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TaxisTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchTaxis</span>
+                <span class="method-start">160444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">173773 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

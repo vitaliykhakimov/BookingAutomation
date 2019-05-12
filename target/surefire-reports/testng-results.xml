@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="16926" started-at="2019-05-06T09:16:41Z" finished-at="2019-05-06T09:16:58Z">
+  <suite name="Suite1" duration-ms="174383" started-at="2019-05-12T11:54:45Z" finished-at="2019-05-12T11:57:39Z">
     <groups>
     </groups>
-    <test name="SearchTests" duration-ms="16845" started-at="2019-05-06T09:16:41Z" finished-at="2019-05-06T09:16:58Z">
-      <class name="tests.SearchHotelsTests">
-        <test-method status="PASS" signature="searchAndChooseRightHotel()[pri:0, instance:tests.SearchHotelsTests@6a4f1a55]" name="searchAndChooseRightHotel" duration-ms="16338" started-at="2019-05-06T09:16:41Z" finished-at="2019-05-06T09:16:57Z">
+    <test name="BookingHotelsTests" duration-ms="120821" started-at="2019-05-12T11:54:45Z" finished-at="2019-05-12T11:56:45Z">
+      <class name="tests.BookingHotelTests">
+        <test-method status="PASS" signature="searchHotel()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="searchHotel" duration-ms="16729" started-at="2019-05-12T11:54:45Z" finished-at="2019-05-12T11:55:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchAndChooseRightHotel -->
-        <test-method status="FAIL" signature="searchHotelsTest()[pri:0, instance:tests.SearchHotelsTests@6a4f1a55]" name="searchHotelsTest" duration-ms="472" started-at="2019-05-06T09:16:57Z" finished-at="2019-05-06T09:16:58Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        </test-method> <!-- searchHotel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="shutDown" is-config="true" duration-ms="602" started-at="2019-05-12T11:55:01Z" finished-at="2019-05-12T11:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="reservationHotel()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="reservationHotel" duration-ms="47613" started-at="2019-05-12T11:55:02Z" depends-on-methods="tests.BookingHotelTests.searchHotel" finished-at="2019-05-12T11:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reservationHotel -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="shutDown" is-config="true" duration-ms="630" started-at="2019-05-12T11:55:50Z" finished-at="2019-05-12T11:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="cancelingReservation()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="cancelingReservation" duration-ms="23038" started-at="2019-05-12T11:55:50Z" depends-on-methods="tests.BookingHotelTests.reservationHotel" finished-at="2019-05-12T11:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelingReservation -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="shutDown" is-config="true" duration-ms="596" started-at="2019-05-12T11:56:13Z" finished-at="2019-05-12T11:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="bookHotelWithWrongBankCard()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="bookHotelWithWrongBankCard" duration-ms="30993" started-at="2019-05-12T11:56:14Z" depends-on-methods="tests.BookingHotelTests.cancelingReservation" finished-at="2019-05-12T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotelWithWrongBankCard -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.BookingHotelTests@4e41089d]" name="shutDown" is-config="true" duration-ms="606" started-at="2019-05-12T11:56:45Z" finished-at="2019-05-12T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- tests.BookingHotelTests -->
+    </test> <!-- BookingHotelsTests -->
+    <test name="CarRentalsTest" duration-ms="20277" started-at="2019-05-12T11:56:46Z" finished-at="2019-05-12T11:57:06Z">
+      <class name="tests.CarRentalsTest">
+        <test-method status="PASS" signature="searchCar()[pri:0, instance:tests.CarRentalsTest@442675e1]" name="searchCar" duration-ms="19687" started-at="2019-05-12T11:56:46Z" finished-at="2019-05-12T11:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCar -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.CarRentalsTest@442675e1]" name="shutDown" is-config="true" duration-ms="589" started-at="2019-05-12T11:57:05Z" finished-at="2019-05-12T11:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- tests.CarRentalsTest -->
+    </test> <!-- CarRentalsTest -->
+    <test name="FlightsTests" duration-ms="19299" started-at="2019-05-12T11:57:06Z" finished-at="2019-05-12T11:57:25Z">
+      <class name="tests.FlightsTest">
+        <test-method status="FAIL" signature="searchFlights()[pri:0, instance:tests.FlightsTest@6e38921c]" name="searchFlights" duration-ms="18699" started-at="2019-05-12T11:57:06Z" finished-at="2019-05-12T11:57:25Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KHAKIMAU-V', ip: '172.20.11.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\KHAKIM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51784}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: ecabc6769f0d07ca7b028b1217db3e1e]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=74.0.3729.131)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KHAKIMAU-V', ip: '172.20.11.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\KHAKIM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51784}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
-Session ID: ecabc6769f0d07ca7b028b1217db3e1e
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at web.page.MainPage.enterMainPage(MainPage.java:15)
-at tests.SearchHotelsTests.searchHotelsTest(SearchHotelsTests.java:27)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at tests.FlightsTest.searchFlights(FlightsTest.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,13 +98,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchHotelsTest -->
-      </class> <!-- tests.SearchHotelsTests -->
-    </test> <!-- SearchTests -->
-    <test name="Regression1" duration-ms="0" started-at="2019-05-06T09:16:58Z" finished-at="2019-05-06T09:16:58Z">
-    </test> <!-- Regression1 -->
+        </test-method> <!-- searchFlights -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.FlightsTest@6e38921c]" name="shutDown" is-config="true" duration-ms="596" started-at="2019-05-12T11:57:25Z" finished-at="2019-05-12T11:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- tests.FlightsTest -->
+    </test> <!-- FlightsTests -->
+    <test name="TaxisTests" duration-ms="13927" started-at="2019-05-12T11:57:25Z" finished-at="2019-05-12T11:57:39Z">
+      <class name="tests.TaxisTest">
+        <test-method status="PASS" signature="searchTaxis()[pri:0, instance:tests.TaxisTest@59717824]" name="searchTaxis" duration-ms="13329" started-at="2019-05-12T11:57:25Z" finished-at="2019-05-12T11:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTaxis -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:tests.TaxisTest@59717824]" name="shutDown" is-config="true" duration-ms="598" started-at="2019-05-12T11:57:38Z" finished-at="2019-05-12T11:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- tests.TaxisTest -->
+    </test> <!-- TaxisTests -->
   </suite> <!-- Suite1 -->
 </testng-results>

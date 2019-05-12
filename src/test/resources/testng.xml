@@ -1,13 +1,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1" >
-    <test name="SearchTests" >
+    <test name="BookingHotelsTests" >
         <classes>
-            <class name="tests.SearchHotelsTests"/>
+            <class name="tests.BookingHotelTests"/>
         </classes>
     </test>
 
-    <test name="Regression1">
+    <test name="CarRentalsTest">
+        <classes>
+            <class name="tests.CarRentalsTest"/>
+        </classes>
+    </test>
 
+    <test name="FlightsTests">
+        <classes>
+            <class name="tests.FlightsTest"/>
+        </classes>
+    </test>
+
+    <test name="TaxisTests">
+        <classes>
+            <class name="tests.TaxisTest"/>
+        </classes>
     </test>
 </suite>

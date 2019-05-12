@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7496a99c-c034-47d7-97f7-e4d00dbfd752" name="Default Changelist" comment="" />
+    <list default="true" id="7496a99c-c034-47d7-97f7-e4d00dbfd752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/ConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/HotelPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/MyBookingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationFinalDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/accommodations/SearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/carrentals/CarRentalsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/flights/FlightsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/login/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/main/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/taxis/TaxisPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BookingHotelTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CarRentalsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FlightsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TaxisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/element/GenericElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchHotelsTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/elements/HotelPageElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/elements/MainPageElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/elements/SearchResultsElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/page/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/page/SearchResultsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Regression1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Regression1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Regression1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Regression1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/SearchTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/SearchTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/SearchTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/SearchTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SearchHotelsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tests.SearchHotelsTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/element/GenericElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SearchHotelsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/util/Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/HotelPageElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/MainPageElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/elements/SearchResultsElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/web/page/SearchResultsPage.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +68,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BookingHotelTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+            <state relative-caret-position="1156">
+              <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/TaxisTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -24,53 +88,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/HotelPageElements.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/CarRentalsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/SearchHotelsTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="351">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/Helper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/FlightsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/web/page/SearchResultsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,29 +121,64 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/login.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/page/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/elements/LoginElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/page/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/util/Helper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/ReservationDetailsPageElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/ReservationDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/ReservationFinalDetailsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/ReservationFinalDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/MyBookingElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/ConfirmationElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/ConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BookingHotelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/MyBookingsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/MyBookingsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/web/elements/MainPageElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/MainPageTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/element/GenericElement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SearchHotelsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/web/page/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/page/SearchResultsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/elements/SearchResultsElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/elements/HotelPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/web/elements/HotelPageElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/SearchHotelsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/carrentals/CarRentalsMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/SearchHotelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/carrentals/CarRentalsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/element/GenericElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/carrentals/BookOptionsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/carrentals/BookOptionsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/carrentals/CarRentalSearchResultsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/carrentals/CarRentalSearchResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/flights/FlightsElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/elements/main/MainPageElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/login/SignInPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/ConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/ReservationDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/ReservationFinalDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/HotelPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/MyBookingsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/accommodations/SearchResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/carrentals/CarRentalsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/CarRentalsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/main/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/web/page/flights/FlightsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/flights/FlightsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/accommodations/ConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/accommodations/MyBookingsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/carrentals/BookOptionsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/carrentals/CarRentalSearchResultsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/carrentals/CarRentalsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/login/SignInPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/FlightsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/main/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/taxis/TaxisPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/TaxisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/accommodations/HotelPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationFinalDetailsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/BookingHotelTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/Helper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/CarRentalsTest.java" />
       </list>
     </option>
   </component>
@@ -155,11 +227,13 @@
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,6 +266,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookingAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,36 +282,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BookingAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookingAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookingAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557151175223" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557662472961" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestProjects/Talenttests_Pattern" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -247,76 +317,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchHotelsTests.searchHotelsTest">
-    <configuration name="SearchHotelsTests.getToMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookingAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchHotelsTests" />
-      <option name="METHOD_NAME" value="getToMainPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchHotelsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BookingAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchHotelsTests" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchHotelsTests.getToMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BookingAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchHotelsTests" />
-      <option name="METHOD_NAME" value="getToMainPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchHotelsTests.searchAndChooseRightHotel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BookingAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchHotelsTests" />
-      <option name="METHOD_NAME" value="searchAndChooseRightHotel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchHotelsTests.searchHotelsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BookingHotelTests.bookHotelWithWrongBankCard">
+    <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="booking-automation" />
       <extension name="coverage">
         <pattern>
@@ -325,8 +327,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchHotelsTests" />
-      <option name="METHOD_NAME" value="searchHotelsTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookingHotelTests" />
+      <option name="METHOD_NAME" value="bookHotelWithWrongBankCard" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingHotelTests.reservationHotel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="booking-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookingHotelTests" />
+      <option name="METHOD_NAME" value="reservationHotel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingHotelTests.searchHotel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="booking-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BookingHotelTests" />
+      <option name="METHOD_NAME" value="searchHotel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarRentalsTest.searchCar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="booking-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CarRentalsTest" />
+      <option name="METHOD_NAME" value="searchCar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaxisTest.searchTaxis" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="booking-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TaxisTest" />
+      <option name="METHOD_NAME" value="searchTaxis" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -336,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchHotelsTests.searchHotelsTest" />
-        <item itemvalue="TestNG.SearchHotelsTests.searchAndChooseRightHotel" />
-        <item itemvalue="TestNG.SearchHotelsTests" />
-        <item itemvalue="TestNG.SearchHotelsTests.getToMainPage" />
-        <item itemvalue="JUnit.SearchHotelsTests.getToMainPage" />
+        <item itemvalue="TestNG.BookingHotelTests.bookHotelWithWrongBankCard" />
+        <item itemvalue="TestNG.BookingHotelTests.reservationHotel" />
+        <item itemvalue="TestNG.BookingHotelTests.searchHotel" />
+        <item itemvalue="TestNG.CarRentalsTest.searchCar" />
+        <item itemvalue="TestNG.TaxisTest.searchTaxis" />
       </list>
     </recent_temporary>
   </component>
@@ -358,42 +432,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 35m 29s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 01m 26s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 39m 23s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 04m 04s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 40m 18s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_reservationHotel - 2019.05.12 at 14h 07m 26s.xml">
+      <configuration name="BookingHotelTests.reservationHotel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 42m 41s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 09m 15s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 43m 34s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 27m 32s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 47m 26s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 29m 45s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 48m 50s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 31m 33s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 56m 53s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 34m 50s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 58m 35s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 35m 49s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchHotelsTests_searchHotelsTest - 2019.05.06 at 16h 59m 18s.xml">
-      <configuration name="SearchHotelsTests.searchHotelsTest" configurationId="TestNG" />
+    <history-entry file="BookingHotelTests_bookHotelWithWrongBankCard - 2019.05.12 at 14h 48m 49s.xml">
+      <configuration name="BookingHotelTests.bookHotelWithWrongBankCard" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +475,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37053087" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38786566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +488,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.14712153" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.102878466" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -429,118 +502,196 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/MainPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/MainPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/page/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/MainPageElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/HotelPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SearchHotelTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="119">
           <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/element/GenericElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/carrentals/CarRentalSearchResultsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/carrentals/BookOptionsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/flights.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="357">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/HotelPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/main/MainPageElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/login/SignInElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/ConfirmationElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/ReservationDetailsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/ReservationFinalDetailsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/SearchResultsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/HotelElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/accommodations/MyBookingsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/carrentals/CarRentalsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/flights/FlightsElements.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/carrentals/BookOptionsPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/carrentals/CarRentalSearchResultsPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/MyBookingsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/SearchResultsElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="132" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/login/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/element/GenericElement.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/main/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="67" column="9" selection-start-line="58" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="method#enterPlaceField#0;class#MainPage#0" />
+            <element signature="method#clickSearchButton#0;class#MainPage#0" />
+            <element signature="method#clickSignInButton#0;class#MainPage#0" />
+            <element signature="method#goToMyBookingsPage#0;class#MainPage#0" />
+            <element signature="method#goToCarRentalPage#0;class#MainPage#0" />
+            <element signature="method#goToFlightsPage#0;class#MainPage#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/ConfirmationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/SearchResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/taxis/TaxisPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/flights/FlightsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/HotelPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/accommodations/ReservationFinalDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/carrentals/CarRentalsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BookingHotelTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="-244">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1351#1359#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/elements/HotelPageElements.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/CarRentalsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/page/SearchResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/FlightsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/SearchHotelsTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TaxisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
